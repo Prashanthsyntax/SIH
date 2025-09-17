@@ -1,4 +1,1 @@
-def Hello():
-    print("Hello from frontend!")
-
-Hello()
+print("Hello, World!")
