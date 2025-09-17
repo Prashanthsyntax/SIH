@@ -1,1 +1,1 @@
-##Sentenara - Frontend Documentation
+# Sentenara - Frontend Documentation
