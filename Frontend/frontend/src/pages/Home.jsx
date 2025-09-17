@@ -6,6 +6,7 @@ export default function Home() {
       <h1>Welcome to Next.js!</h1>
       <p>This is the home page.</p>
       <Link href="/About">Go to About Page</Link>
+      <h1> hello testing! </h1>
     </div>
   );
 }
