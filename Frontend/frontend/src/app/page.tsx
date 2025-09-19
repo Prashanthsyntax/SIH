@@ -1,8 +1,7 @@
 "use client";
+import Home from "@/pages/Home";
 import { useState } from "react";
 import React from "react";
-import Sidebar from "@/components/Sidebar";
-import Main from "@/components/Main";
 
 export default function ChatLayout() {
   const [messages, setMessages] = useState<string[]>([]);
@@ -15,9 +14,8 @@ export default function ChatLayout() {
   };
 
   return (
-    <div className="h-screen w-screen bg-[#1a1a1a] flex text-white">
-      <Sidebar />
-      <Main />
+    <div className="h-screen w-screen flex">
+      <Home />
     </div>
   );
 }

@@ -3,8 +3,8 @@ import React from "react";
 import "./globals.css";
 
 export const metadata = {
-  title: "ChatBot UI",
-  description: "A chat UI built with Next.js and TailwindCSS",
+  title: "Sentenara • AI",
+  description: "Sentenara - Research Engine powered by AI",
 };
 
 export default function RootLayout({ children }) {
