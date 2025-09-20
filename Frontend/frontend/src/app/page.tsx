@@ -1,5 +1,7 @@
 "use client";
-import Home from "@/pages/Home";
+import MainUI from "@/components/Main";
+import Sidebar from "@/components/Sidebar";
+import Main from "@/pages/Main";
 import { useState } from "react";
 import React from "react";
 
@@ -15,7 +17,9 @@ export default function ChatLayout() {
 
   return (
     <div className="h-screen w-screen flex">
-      <Home />
+      {/* <Sidebar />
+      <MainUI /> */}
+      <Main />
     </div>
   );
 }
