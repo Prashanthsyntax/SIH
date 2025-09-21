@@ -1,3 +1,4 @@
-# Python virtual environment
-Backend/models/venv/
+# Ignore Python virtual environments
+venv/
 .venv/
+Backend/models/venv/
