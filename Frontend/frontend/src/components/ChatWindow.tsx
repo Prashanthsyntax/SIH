@@ -108,7 +108,7 @@ const ChatWindow: React.FC<Props> = ({ messages, loading }) => {
 
         {loading && (
           <div className="text-gray-400 italic animate-pulse">
-            Bot is typing...
+            Analyzing your question...
           </div>
         )}
       </div>
