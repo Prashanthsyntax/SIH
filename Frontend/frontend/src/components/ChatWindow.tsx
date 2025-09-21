@@ -21,26 +21,39 @@ const ChatWindow: React.FC<Props> = ({ messages, loading }) => {
     if (!messages.length) return;
 
     const lastMessage = messages[messages.length - 1];
+    if (!lastMessage || !lastMessage.text) return; // guard
 
     if (lastMessage.role === "bot") {
       let index = 0;
       const text = lastMessage.text;
 
-      // Append a placeholder for the new bot message
-      setDisplayMessages((prev) => [...prev, { role: "bot", text: "" }]);
+      // Append placeholder only if it’s a new bot message
+      setDisplayMessages((prev) => [
+        ...prev,
+        { role: "bot", text: "" },
+      ]);
 
       const interval = setInterval(() => {
         setDisplayMessages((prev) => {
           const newMessages = [...prev];
-          newMessages[newMessages.length - 1] = {
+          const lastIdx = newMessages.length - 1;
+
+          if (!newMessages[lastIdx]) return prev; // guard
+
+          newMessages[lastIdx] = {
             role: "bot",
             text: text.slice(0, index + 1),
           };
           return newMessages;
         });
+
         index++;
-        if (index === text.length) clearInterval(interval);
-      }, 20); // typing speed in ms per character
+        if (index >= text.length) {
+          clearInterval(interval);
+        }
+      }, 20); // typing speed
+
+      return () => clearInterval(interval); // cleanup
     } else {
       // User messages added immediately
       setDisplayMessages(messages);
