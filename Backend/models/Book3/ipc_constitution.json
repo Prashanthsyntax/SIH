@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ipc_420",
+    "document": "IPC Section 420: Cheating and dishonestly inducing delivery of property. Whoever cheats and thereby dishonestly induces the person deceived to deliver any property, or to make, alter or destroy the whole or any part of a valuable security, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+    "metadata": {
+      "section": "420",
+      "act": "Indian Penal Code",
+      "keywords": ["cheating", "fraud", "dishonest delivery"],
+      "source": "IPC Section 420"
+    }
+  },
+  {
+    "id": "ipc_302",
+    "document": "IPC Section 302: Punishment for murder. Whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to fine.",
+    "metadata": {
+      "section": "302",
+      "act": "Indian Penal Code",
+      "keywords": ["murder", "punishment", "death penalty"],
+      "source": "IPC Section 302"
+    }
+  },
+  {
+    "id": "ipc_375",
+    "document": "IPC Section 375: Rape. A man is said to commit 'rape' if he has sexual intercourse with a woman under circumstances such as against her will, without her consent, consent obtained by threat, consent when intoxicated, or with a girl under 18 years of age.",
+    "metadata": {
+      "section": "375",
+      "act": "Indian Penal Code",
+      "keywords": ["rape", "sexual offence", "consent"],
+      "source": "IPC Section 375"
+    }
+  },
+  {
+    "id": "ipc_124a",
+    "document": "IPC Section 124A: Sedition. Whoever by words, signs, or visible representation brings or attempts to bring into hatred or contempt, or excites disaffection towards the Government established by law in India shall be punished with imprisonment for life, to which fine may be added, or with imprisonment up to three years, to which fine may be added.",
+    "metadata": {
+      "section": "124A",
+      "act": "Indian Penal Code",
+      "keywords": ["sedition", "hatred", "government"],
+      "source": "IPC Section 124A"
+    }
+  },
+  {
+    "id": "ipc_498a",
+    "document": "IPC Section 498A: Husband or relative of husband subjecting a woman to cruelty. Whoever, being the husband or relative of the husband, subjects a woman to cruelty shall be punished with imprisonment up to three years and shall also be liable to fine.",
+    "metadata": {
+      "section": "498A",
+      "act": "Indian Penal Code",
+      "keywords": ["domestic violence", "cruelty", "dowry"],
+      "source": "IPC Section 498A"
+    }
+  },
+  {
+    "id": "ipc_376",
+    "document": "IPC Section 376: Punishment for rape. Whoever commits rape shall be punished with rigorous imprisonment for not less than ten years, but which may extend to life imprisonment, and shall also be liable to fine.",
+    "metadata": {
+      "section": "376",
+      "act": "Indian Penal Code",
+      "keywords": ["rape", "punishment", "sexual assault"],
+      "source": "IPC Section 376"
+    }
+  },
+  {
+    "id": "const_article_19",
+    "document": "Article 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peaceably and without arms; to form associations or unions; to move freely throughout India; to reside and settle in any part of India.",
+    "metadata": {
+      "article": "19",
+      "act": "Constitution of India",
+      "keywords": ["fundamental rights", "speech", "expression", "movement"],
+      "source": "Constitution Article 19"
+    }
+  },
+  {
+    "id": "const_article_21",
+    "document": "Article 21: Protection of life and personal liberty. No person shall be deprived of his life or personal liberty except according to procedure established by law.",
+    "metadata": {
+      "article": "21",
+      "act": "Constitution of India",
+      "keywords": ["fundamental rights", "life", "personal liberty"],
+      "source": "Constitution Article 21"
+    }
+  },
+  {
+    "id": "const_article_32",
+    "document": "Article 32: Remedies for enforcement of rights conferred by this Part. The right to move the Supreme Court by appropriate proceedings for the enforcement of fundamental rights is guaranteed.",
+    "metadata": {
+      "article": "32",
+      "act": "Constitution of India",
+      "keywords": ["fundamental rights", "supreme court", "remedy"],
+      "source": "Constitution Article 32"
+    }
+  },
+  {
+    "id": "const_article_370",
+    "document": "Article 370: Temporary provisions with respect to the State of Jammu and Kashmir. Special autonomy was granted to Jammu & Kashmir until its abrogation in 2019.",
+    "metadata": {
+      "article": "370",
+      "act": "Constitution of India",
+      "keywords": ["Jammu Kashmir", "special status", "abrogation"],
+      "source": "Constitution Article 370"
+    }
+  },
+  {
+    "id": "const_article_14",
+    "document": "Article 14: Equality before law. The State shall not deny to any person equality before the law or equal protection of the laws within the territory of India.",
+    "metadata": {
+      "article": "14",
+      "act": "Constitution of India",
+      "keywords": ["equality", "law", "equal protection"],
+      "source": "Constitution Article 14"
+    }
+  },
+  {
+    "id": "crpc_41",
+    "document": "CrPC Section 41: When police may arrest without warrant. Any police officer may arrest without an order from a Magistrate or a warrant if a person is committing a cognizable offence.",
+    "metadata": {
+      "section": "41",
+      "act": "Code of Criminal Procedure",
+      "keywords": ["arrest", "police powers", "warrant"],
+      "source": "CrPC Section 41"
+    }
+  },
+  {
+    "id": "crpc_154",
+    "document": "CrPC Section 154: Information in cognizable cases. Every information relating to the commission of a cognizable offence, if given orally to an officer in charge of a police station, shall be reduced to writing and signed by the informant, and shall be entered in a book.",
+    "metadata": {
+      "section": "154",
+      "act": "Code of Criminal Procedure",
+      "keywords": ["FIR", "cognizable offence", "police station"],
+      "source": "CrPC Section 154"
+    }
+  },
+  {
+    "id": "crpc_167",
+    "document": "CrPC Section 167: Procedure when investigation cannot be completed in twenty-four hours. The Magistrate may authorize the detention of the accused in custody beyond 24 hours, up to 15 days, and in certain cases up to 60 or 90 days.",
+    "metadata": {
+      "section": "167",
+      "act": "Code of Criminal Procedure",
+      "keywords": ["detention", "investigation", "custody"],
+      "source": "CrPC Section 167"
+    }
+  },
+  {
+    "id": "ipc_307",
+    "document": "IPC Section 307: Attempt to murder. Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder, shall be punished with imprisonment up to ten years, or imprisonment for life, and shall also be liable to fine.",
+    "metadata": {
+      "section": "307",
+      "act": "Indian Penal Code",
+      "keywords": ["attempt to murder", "punishment", "life imprisonment"],
+      "source": "IPC Section 307"
+    }
+  },
+  {
+    "id": "ipc_354",
+    "document": "IPC Section 354: Assault or criminal force to woman with intent to outrage her modesty. Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty, shall be punished with imprisonment up to five years and fine.",
+    "metadata": {
+      "section": "354",
+      "act": "Indian Penal Code",
+      "keywords": ["assault", "woman", "modesty"],
+      "source": "IPC Section 354"
+    }
+  },
+  {
+    "id": "ipc_377",
+    "document": "IPC Section 377: Unnatural offences. Whoever voluntarily has carnal intercourse against the order of nature with any man, woman, or animal, shall be punished with imprisonment for life, or with imprisonment up to ten years, and shall also be liable to fine. (Note: Decriminalized in 2018 by Supreme Court judgment.)",
+    "metadata": {
+      "section": "377",
+      "act": "Indian Penal Code",
+      "keywords": ["unnatural offence", "LGBTQ", "carnal intercourse"],
+      "source": "IPC Section 377"
+    }
+  },
+  {
+    "id": "const_article_368",
+    "document": "Article 368: Power of Parliament to amend the Constitution and procedure thereof. Parliament may amend by way of addition, variation or repeal any provision of the Constitution in accordance with the procedure laid down.",
+    "metadata": {
+      "article": "368",
+      "act": "Constitution of India",
+      "keywords": ["amendment", "parliament", "constitution"],
+      "source": "Constitution Article 368"
+    }
+  },
+  {
+    "id": "const_article_370a",
+    "document": "Article 370A: Provisions relating to application of laws to Jammu and Kashmir (before abrogation). The President may specify the exceptions and modifications to laws applicable in J&K.",
+    "metadata": {
+      "article": "370A",
+      "act": "Constitution of India",
+      "keywords": ["Jammu Kashmir", "laws", "exceptions"],
+      "source": "Constitution Article 370A"
+    }
+  }
+]
