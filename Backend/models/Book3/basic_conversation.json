@@ -1,0 +1,176 @@
+[
+  {
+    "id": "hi",
+    "type": "small_talk",
+    "document": "Hi! How can I help you today?",
+    "metadata": { "keywords": ["hi", "hello", "greetings"], "source": "smalltalk" }
+  },
+  {
+    "id": "hello",
+    "type": "small_talk",
+    "document": "Hello! Hope you're having a great day!",
+    "metadata": { "keywords": ["hello", "hi"], "source": "smalltalk" }
+  },
+  {
+    "id": "hey",
+    "type": "small_talk",
+    "document": "Hey there! What can I do for you today?",
+    "metadata": { "keywords": ["hey", "hello"], "source": "smalltalk" }
+  },
+  {
+    "id": "good_morning",
+    "type": "small_talk",
+    "document": "Good morning! How’s your day starting?",
+    "metadata": { "keywords": ["good morning", "greetings"], "source": "smalltalk" }
+  },
+  {
+    "id": "good_evening",
+    "type": "small_talk",
+    "document": "Good evening! How was your day?",
+    "metadata": { "keywords": ["good evening", "greetings"], "source": "smalltalk" }
+  },
+  {
+    "id": "bye",
+    "type": "small_talk",
+    "document": "Goodbye! Have a great day!",
+    "metadata": { "keywords": ["bye", "goodbye", "see you"], "source": "smalltalk" }
+  },
+  {
+    "id": "see_you",
+    "type": "small_talk",
+    "document": "See you later! Take care!",
+    "metadata": { "keywords": ["bye", "see you later"], "source": "smalltalk" }
+  },
+  {
+    "id": "goodbye",
+    "type": "small_talk",
+    "document": "Bye! Come back anytime you need help.",
+    "metadata": { "keywords": ["bye", "goodbye"], "source": "smalltalk" }
+  },
+  {
+    "id": "thanks",
+    "type": "small_talk",
+    "document": "You're welcome! Happy to help.",
+    "metadata": { "keywords": ["thanks", "thank you"], "source": "smalltalk" }
+  },
+  {
+    "id": "thank_you",
+    "type": "small_talk",
+    "document": "No problem! Glad I could assist.",
+    "metadata": { "keywords": ["thanks", "thank you"], "source": "smalltalk" }
+  },
+  {
+    "id": "anytime",
+    "type": "small_talk",
+    "document": "Anytime! Don’t hesitate to ask more questions.",
+    "metadata": { "keywords": ["thanks", "thank you"], "source": "smalltalk" }
+  },
+  {
+    "id": "sorry",
+    "type": "small_talk",
+    "document": "Sorry about that! Let me correct it.",
+    "metadata": { "keywords": ["sorry", "apology"], "source": "smalltalk" }
+  },
+  {
+    "id": "apologies",
+    "type": "small_talk",
+    "document": "My apologies, I didn’t get that right.",
+    "metadata": { "keywords": ["sorry", "apology"], "source": "smalltalk" }
+  },
+  {
+    "id": "oops",
+    "type": "small_talk",
+    "document": "Oops! Sorry for the confusion.",
+    "metadata": { "keywords": ["sorry", "apology"], "source": "smalltalk" }
+  },
+  {
+    "id": "okay",
+    "type": "small_talk",
+    "document": "Okay, got it!",
+    "metadata": { "keywords": ["okay", "acknowledgment"], "source": "smalltalk" }
+  },
+  {
+    "id": "understood",
+    "type": "small_talk",
+    "document": "Understood, I’ll do that.",
+    "metadata": { "keywords": ["understood", "acknowledgment"], "source": "smalltalk" }
+  },
+  {
+    "id": "sure",
+    "type": "small_talk",
+    "document": "Sure, I’m on it.",
+    "metadata": { "keywords": ["sure", "acknowledgment"], "source": "smalltalk" }
+  },
+  {
+    "id": "who_are_you",
+    "type": "small_talk",
+    "document": "I am a virtual assistant created to help you with your questions.",
+    "metadata": { "keywords": ["who are you"], "source": "smalltalk" }
+  },
+  {
+    "id": "what_can_you_do",
+    "type": "small_talk",
+    "document": "I can answer questions, provide information, and help you navigate topics.",
+    "metadata": { "keywords": ["what can you do"], "source": "smalltalk" }
+  },
+  {
+    "id": "how_are_you",
+    "type": "small_talk",
+    "document": "I’m doing well, thanks for asking!",
+    "metadata": { "keywords": ["how are you"], "source": "smalltalk" }
+  },
+  {
+    "id": "all_good",
+    "type": "small_talk",
+    "document": "All good! How about you?",
+    "metadata": { "keywords": ["how are you"], "source": "smalltalk" }
+  },
+  {
+    "id": "joke_1",
+    "type": "small_talk",
+    "document": "Why did the computer go to the doctor? It had a virus!",
+    "metadata": { "keywords": ["joke", "fun"], "source": "smalltalk" }
+  },
+  {
+    "id": "joke_2",
+    "type": "small_talk",
+    "document": "I told a joke once, but it didn’t compute!",
+    "metadata": { "keywords": ["joke", "fun"], "source": "smalltalk" }
+  },
+  {
+    "id": "yes",
+    "type": "small_talk",
+    "document": "Yes, that’s correct!",
+    "metadata": { "keywords": ["yes", "confirmation"], "source": "smalltalk" }
+  },
+  {
+    "id": "no",
+    "type": "small_talk",
+    "document": "No, that’s not right.",
+    "metadata": { "keywords": ["no", "confirmation"], "source": "smalltalk" }
+  },
+  {
+    "id": "maybe",
+    "type": "small_talk",
+    "document": "Maybe, it depends on the context.",
+    "metadata": { "keywords": ["maybe", "confirmation"], "source": "smalltalk" }
+  },
+  {
+    "id": "dont_know",
+    "type": "small_talk",
+    "document": "I don’t know, but I can find out for you.",
+    "metadata": { "keywords": ["I don’t know", "polite reply"], "source": "smalltalk" }
+  },
+  {
+    "id": "here_to_help",
+    "type": "small_talk",
+    "document": "I’m here to help whenever you need me.",
+    "metadata": { "keywords": ["polite reply"], "source": "smalltalk" }
+  },
+  {
+    "id": "who_made_you",
+    "type": "small_talk",
+    "document": "I was created by a team of developers to assist you.",
+    "metadata": { "keywords": ["who made you"], "source": "smalltalk" }
+  }
+]

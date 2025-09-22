@@ -1,10 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-import chromadb  # type: ignore
-from sentence_transformers import SentenceTransformer  # type: ignore
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline  # type: ignore
-import torch  # type: ignore
+import chromadb
+from sentence_transformers import SentenceTransformer
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+import torch
 
 # --------------------------
 # 1️⃣ Initialize FastAPI
@@ -38,11 +38,14 @@ model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 device = 0 if torch.cuda.is_available() else -1
 qa_pipeline = pipeline("text2text-generation", model=model, tokenizer=tokenizer, device=device)
 
+
+  
 client = chromadb.CloudClient(
-    api_key='ck-8ogrFSdCtYH9Bxh9mZ7A4dMsGbdQ2zp3VrLKNeHrfirE',
-    tenant='f9ac33d4-f162-4b85-b38d-1c8b719366e6',
-    database='VECDB'
+  api_key='ck-FsBHek1GcFRd9WMQJD9YamcvZaSZTEQAkpGhsoFThgZw',
+  tenant='f9ac33d4-f162-4b85-b38d-1c8b719366e6',
+  database='VECDB'
 )
+
 collection_name = "indian_laws"
 collection = client.get_collection(name=collection_name)
 
