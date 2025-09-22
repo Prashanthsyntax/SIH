@@ -1,11 +1,5 @@
 // InputBar.tsx
 import React, { useState } from "react";
-
-import { Globe, Paperclip, Mic, Search, Link, Lightbulb, Cpu, Send } from "lucide-react";
-
-const InputBar: React.FC = () => {
-  const [input, setInput] = useState("");
-
 import {
   Globe,
   Paperclip,
@@ -53,9 +47,7 @@ const InputBar: React.FC<Props> = ({ onSend }) => {
         onChange={(e) => setInput(e.target.value)}
         placeholder="Ask Research Engine..."
         className="flex-1 bg-transparent outline-none text-white placeholder-gray-400 text-sm px-2"
-
         onKeyDown={(e) => e.key === "Enter" && handleSend()}
-
       />
 
       {/* Right Icons */}
@@ -67,14 +59,10 @@ const InputBar: React.FC<Props> = ({ onSend }) => {
       </div>
 
       {/* Send / Voice Button */}
-
-      <button className="ml-2 bg-teal-500 hover:bg-teal-400 p-2 rounded-xl transition">
-
       <button
         onClick={handleSend}
         className="ml-2 bg-teal-500 hover:bg-teal-400 p-2 rounded-xl transition"
       >
-
         <Send className="w-5 h-5 text-black" />
       </button>
     </div>

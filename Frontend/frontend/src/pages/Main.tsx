@@ -13,23 +13,9 @@ const Main = () => {
         <FeaturesSection />
         <FAQSection />
       </div>
-      <Footer /> {/* ✅ Added Footer */}
+      <Footer />
     </main>
   );
 };
 
 export default Main;
-
-import React from 'react'
-import HeroSection from './HeroSection'
-
-const Main = () => {
-  return (
-    <div>
-      <HeroSection />
-    </div>
-  )
-}
-
-export default Main
-

@@ -1,8 +1,8 @@
-
 "use client";
-
 import { useState } from "react";
 import Link from "next/link";
+import MainUI from "@/components/Main";
+import router, { useRouter } from "next/router";
 
 export default function HeroPage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -202,16 +202,4 @@ export default function HeroPage() {
     </div>
   );
 }
-
-import React from 'react'
-
-const HeroSection = () => {
-  return (
-    <div>
-      Hello World
-    </div>
-  )
-}
-
-export default HeroSection
 
