@@ -21,11 +21,11 @@ const ChatWindow: React.FC<Props> = ({ messages, loading }) => {
     if (!messages.length) return;
 
     const lastMessage = messages[messages.length - 1];
-    if (!lastMessage || !lastMessage.text) return; // guard
+    if (!lastMessage || typeof lastMessage.text !== "string") return; // guard
 
     if (lastMessage.role === "bot") {
       let index = 0;
-      const text = lastMessage.text;
+      const text = String(lastMessage.text); // ensure string
 
       // Append placeholder only if it’s a new bot message
       setDisplayMessages((prev) => [
@@ -42,7 +42,7 @@ const ChatWindow: React.FC<Props> = ({ messages, loading }) => {
 
           newMessages[lastIdx] = {
             role: "bot",
-            text: text.slice(0, index + 1),
+            text: text.slice(0, index + 1), // safe now
           };
           return newMessages;
         });

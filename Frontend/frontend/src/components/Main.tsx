@@ -9,7 +9,8 @@ export default function MainUI() {
   const [loading, setLoading] = useState(false);
 
   const sendMessage = async (msg: string) => {
-    setMessages([...messages, { role: "user", text: msg }]);
+    // Add user's message
+    setMessages((prev) => [...prev, { role: "user", text: msg }]);
     setLoading(true);
 
     try {
@@ -18,7 +19,10 @@ export default function MainUI() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: msg }),
       });
+
       const data = await res.json();
+
+      // Add bot's answer
       setMessages((prev) => [...prev, { role: "bot", text: data.answer }]);
     } catch (err) {
       setMessages((prev) => [
@@ -30,7 +34,6 @@ export default function MainUI() {
     }
   };
 
-  // Determine if the chat has started
   const chatStarted = messages.length > 0;
 
   return (
@@ -39,16 +42,14 @@ export default function MainUI() {
       <div className="relative flex-1 w-full max-w-3xl mx-auto z-10">
         {!chatStarted ? (
           <>
-            {/* Gradient Overlay ON TOP of bg-[#0b0e11] */}
+            {/* Gradient Overlay */}
             <div className="absolute inset-0 z-0 pointer-events-none">
-              {/* Main radial gradient glow */}
               <div className="absolute top-1/4 left-1/3 w-[550px] h-[550px] bg-gradient-to-r from-cyan-600 via-blue-700 to-purple-700 opacity-20 blur-[120px] rounded-full animate-pulse" />
-
-              {/* Secondary glow for depth */}
               <div className="absolute bottom-1/4 right-1/4 w-[320px] h-[320px] bg-gradient-to-r from-purple-700 via-pink-600 to-red-600 opacity-15 blur-[100px] rounded-full animate-spin-slow" />
             </div>
+
             <div className="flex flex-col items-center justify-center h-full gap-8">
-              {/* Title / Logo */}
+              {/* Title */}
               <div className="text-center">
                 <h1 className="text-6xl font-extrabold tracking-tight">
                   <span className="text-white">Sentenara</span>
@@ -58,23 +59,23 @@ export default function MainUI() {
                 </h1>
               </div>
 
-              {/* Input Bar in center */}
+              {/* Input Bar */}
               <div className="w-full px-4">
-                <InputBar onSend={sendMessage} />
+                <InputBar onSend={sendMessage} loading={loading} />
               </div>
             </div>
           </>
         ) : (
-          // ---------- Chat Stage ----------
+          // Chat Stage
           <div className="flex flex-col h-full justify-end">
-            {/* Chat messages above input */}
+            {/* Chat messages */}
             <div className="flex-1 overflow-y-auto mb-4 px-2">
               <ChatWindow messages={messages} loading={loading} />
             </div>
 
-            {/* Input bar fixed at bottom */}
+            {/* Input Bar fixed at bottom */}
             <div className="w-full px-2 pb-4">
-              <InputBar onSend={sendMessage} />
+              <InputBar onSend={sendMessage} loading={loading} />
             </div>
           </div>
         )}

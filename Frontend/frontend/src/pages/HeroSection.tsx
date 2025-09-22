@@ -1,11 +1,12 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import MainUI from "@/components/Main";
-import router, { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function HeroPage() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const router = useRouter();
 
   return (
     <div className="relative bg-black text-white min-h-screen w-full overflow-x-hidden">
@@ -143,7 +144,7 @@ export default function HeroPage() {
         </p>
 
         <div className="flex items-center gap-4 mt-8">
-          <button className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-7 h-11">
+          <button onClick={() => router.push("/mainUI")} className="bg-purple-600 hover:bg-purple-700 text-white rounded-full px-7 h-11">
             Get started
           </button>
           <button className="flex items-center gap-2 border border-purple-900 hover:bg-purple-950/50 transition rounded-full px-6 h-11">
