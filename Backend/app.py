@@ -11,7 +11,7 @@ import torch
 # --------------------------
 app = FastAPI(title="Sentenara Pro Backend")
 
-# Allow CORS for your frontend
+# Allow CORS for frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000"],
@@ -25,7 +25,7 @@ app.add_middleware(
 # --------------------------
 class QuestionRequest(BaseModel):
     question: str
-    type: str | None = None  # optional filter
+    type: str | None = None  # "indian_laws" or "basic_chat"
 
 # --------------------------
 # 3️⃣ Load models & ChromaDB
@@ -36,41 +36,52 @@ model_name = "google/flan-t5-base"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 device = 0 if torch.cuda.is_available() else -1
+
 qa_pipeline = pipeline("text2text-generation", model=model, tokenizer=tokenizer, device=device)
 
-
-  
 client = chromadb.CloudClient(
-  api_key='ck-FsBHek1GcFRd9WMQJD9YamcvZaSZTEQAkpGhsoFThgZw',
+  api_key='ck-FLEMJN1q9G85JWFrL2tPqE4B7EqmrGFzuz5sSFcuCpxX',
   tenant='f9ac33d4-f162-4b85-b38d-1c8b719366e6',
   database='VECDB'
 )
 
-collection_name = "indian_laws"
-collection = client.get_collection(name=collection_name)
+# Get collections
+collections = {
+    "indian_laws": client.get_collection(name="indian_laws"),
+    "basic_chat": client.get_collection(name="basic_chat")
+}
 
 # --------------------------
 # 4️⃣ Helper functions
 # --------------------------
-def retrieve(query, top_k=5, filter_type=None):
-    where = {"type": filter_type} if filter_type else None
-    results = collection.query(
-        query_texts=[query],
-        n_results=top_k,
-        where=where
-    )
+def retrieve(query, top_k=5, collection_type=None):
+    # Determine which collection to use
+    primary = collections.get(collection_type, collections["indian_laws"])
+    fallback_type = "basic_chat" if collection_type == "indian_laws" else "indian_laws"
+    fallback = collections[fallback_type]
+
+    # Query primary collection
+    results = primary.query(query_texts=[query], n_results=top_k)
     docs = results.get('documents', [[]])[0]
     metas = results.get('metadatas', [[]])[0]
+
+    # If nothing found, query fallback collection
+    if not docs or all(d.strip() == "" for d in docs):
+        results = fallback.query(query_texts=[query], n_results=top_k)
+        docs = results.get('documents', [[]])[0]
+        metas = results.get('metadatas', [[]])[0]
+
     if not docs:
         return [("No relevant context found.", {})]
+
     return list(zip(docs, metas))
 
-def answer_question(question, filter_type=None, top_k=5):
-    retrieved = retrieve(question, top_k, filter_type)
+def answer_question(question, collection_type=None, top_k=5):
+    retrieved = retrieve(question, top_k, collection_type)
     context = "\n\n".join([doc for doc, _ in retrieved])
-    prompt = f"Answer the following legal question using the provided context.\n\nContext:\n{context}\n\nQuestion: {question}\n\nAnswer clearly and concisely:"
+    prompt = f"Answer the following question using the provided context.\n\nContext:\n{context}\n\nQuestion: {question}\n\nAnswer clearly and concisely:"
     
-    result = qa_pipeline(prompt, max_length=300, do_sample=False)
+    result = qa_pipeline(prompt, max_new_tokens=256, do_sample=False)
     return result[0]["generated_text"], retrieved
 
 # --------------------------

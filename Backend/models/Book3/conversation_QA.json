@@ -1,0 +1,902 @@
+[
+    {
+        "id": 1,
+        "question": "Hi!",
+        "answer": "What is your favorite holiday?"
+    },
+    {
+        "id": 2,
+        "question": "one where I get to meet lots of different people.",
+        "answer": "What was the most number of people you have ever met during a holiday? Human 1: Hard to keep a count. Maybe 25."
+    },
+    {
+        "id": 3,
+        "question": "Not really. The interactions are usually short-lived but it's fascinating to learn where people are coming from and what matters to them",
+        "answer": "Yea, me too. I feel like God often puts strangers in front of you, and gives you an opportunity to connect with them in that moment in deeply meaningful ways. Do you ever feel like you know things about strangers without them telling you?"
+    },
+    {
+        "id": 4,
+        "question": "what do you mean?",
+        "answer": "I think it's like a 6th sense, often seen as \"cold readings\" to people, but can be remarkably accurate. I once sat next to a man in a coffee and I felt a pain in my back. I asked the stranger if he had a pain. It turns out that he did in the exact spot, and said he pulled a muscle while dancing at a party. I had never met the man before and never saw him again."
+    },
+    {
+        "id": 5,
+        "question": "Wow! That's interesting, borderline spooky",
+        "answer": "There's this practice called \"Treasure Hunting\" that's kind of a fun game you play in a public place. There's a book called \"The Ultimate Treasure Hunt\" that talks about it. You use your creativity to imagine people you will meet, and you write down a description, then you associate them with a positive message or encouraging word. Maybe you saw a teenage boy in a red hat at the shopping mall in your imagination, then while at the mall, you may find someone who matches that description. You show that you have a message for him and that you have a message for a boy in a red hat. You then give him a message of kindness or whatever was on your heart. You have no idea, sometimes you meet someone who is having a really hard day, and it brings them to tears to have a stranger show them love."
+    },
+    {
+        "id": 6,
+        "question": "So, do you do treasure hunting often?",
+        "answer": "I did more when I was in grad school (and had more time). I would usually go with friends. For a while I would go to the farmers market in Santa Cruz every week and try to feel if there is something I am supposed to tell a stranger. Usually, they are vague hope-filled messages, but it's weird when I blurt out something oddly specific."
+    },
+    {
+        "id": 7,
+        "question": "Hi",
+        "answer": "Any plans for the weekend?"
+    },
+    {
+        "id": 8,
+        "question": "my friends are gonna visit me this weekend. we might go hiking! Human 2: That's great! How's the weather over the weekend? I hope its warm.  Should be very sunny! you?",
+        "answer": "Cool! very depressing plans ... stay home and work dV’z I have a project deadline very close."
+    },
+    {
+        "id": 9,
+        "question": "I am going to Diablo!",
+        "answer": "Nice, where is that place? I haven't been there Human 1: hours drive from here. still in bay area"
+    },
+    {
+        "id": 10,
+        "question": "Hi!",
+        "answer": "Hey there! What's up??? Human 1: Nothing much, how you doin?"
+    },
+    {
+        "id": 11,
+        "question": "0hh okay. I was going to say if it had been a long time maybe it'd be awkward...",
+        "answer": "Haha, I guess if it's been a very long time there's almost too many life events to catch up on.. especially recently"
+    },
+    {
+        "id": 12,
+        "question": "Oh really? Has a lot changed in your life recently?",
+        "answer": "Haha it's probably too much to go into at the moment. Let's just say life is an exciting experience. How about you?"
+    },
+    {
+        "id": 13,
+        "question": "Ahhh sounds exciting indeed! My life is pretty bland. I like routine, but sometimes I wish I had more time for adventures!",
+        "answer": "What kinds of adventures?? Any ones that I would be able to join you on?"
+    },
+    {
+        "id": 14,
+        "question": "Sure! What does your Saturday look like?",
+        "answer": "Saturday looks pretty good, shall we shoot for something in the morning? Human 1: Hi!"
+    },
+    {
+        "id": 15,
+        "question": "is it raining pretty bad today?",
+        "answer": "yeah, can walk too far to see all the foodtruck options"
+    },
+    {
+        "id": 16,
+        "question": "surprising that the rain started early this year... I don't like them too much. They make days gloomy",
+        "answer": "yeah but I think it's good to have some rainy days in bay area, it's pretty dry here dY’› Human 1: Where I grew up, we had lots of water trouble too..."
+    },
+    {
+        "id": 17,
+        "question": "Haha... I don't think I can survive in that weather ever. Just the rains at 50 degrees make me want to sit in heated rroms",
+        "answer": "yeah how do you like it in bay area though? I think we need more rain here"
+    },
+    {
+        "id": 18,
+        "question": "people say there is drought here... but we have 24 hours water supply here\tlol... never seen that in a drought ridden area",
+        "answer": "it is pretty dry in the mountains I believe, that's what causes fire"
+    },
+    {
+        "id": 19,
+        "question": "they were talking about how AI is helping climate change. Nice use of upcoming tech.  Hi.",
+        "answer": "Helloooooo!"
+    },
+    {
+        "id": 20,
+        "question": "How are you? How is your day?",
+        "answer": "Good. Don't have much to do today, feels good. How are you?"
+    },
+    {
+        "id": 21,
+        "question": "I'm dressed very wel today so I feel good! I've been reading a lot about the psychology of positive outlook.",
+        "answer": "So what's your outlook? Something blue?"
+    },
+    {
+        "id": 22,
+        "question": "Yes. Blue is a tranquil colour. It's a good metaphor. Do you have good advice for positivity?",
+        "answer": "You should drink more water, do some push up, and sleep early. Human 1: Hi!"
+    },
+    {
+        "id": 23,
+        "question": "I'm a bit sad. I miss my cat.",
+        "answer": "Oh noâ€| Have you sent out the missing cat posters? Hope your cat is alright!"
+    },
+    {
+        "id": 24,
+        "question": "Posters is a great idea. So far I've just tried banging her catfood dish and shouting her name. Anyway, how is your day going so far?",
+        "answer": "Yea, I know they love the plastic bag sound all the time. I am good, nothing special though. Human 1: If you could go anywhere on vacation, where would you go?"
+    },
+    {
+        "id": 25,
+        "question": "I won't lie, it sounds scary. I'm scared right now just thinking about it.",
+        "answer": "I don't know if there is any medication for acrophobia. I want to take plenty of it if I really have to do it."
+    },
+    {
+        "id": 26,
+        "question": "Ha! Don't drink and zipline, mate! Human 2: Oops. I won't do it again. Ha  Hi!",
+        "answer": "Hey sup"
+    },
+    {
+        "id": 27,
+        "question": "not much. any plans this weekend?",
+        "answer": "I'm going to try that thing where you hang from a wire as you go down. do you know what is it called?"
+    },
+    {
+        "id": 28,
+        "question": "ziplining?",
+        "answer": "that's the one! have you ever tried it?"
+    },
+    {
+        "id": 29,
+        "question": "no, i'm going to get a massage first",
+        "answer": "nice. what type?"
+    },
+    {
+        "id": 30,
+        "question": "traditional kind",
+        "answer": "yeah I want to get one too soon"
+    },
+    {
+        "id": 31,
+        "question": "Hi!",
+        "answer": "Hello, have you seen any good movies lately?"
+    },
+    {
+        "id": 32,
+        "question": "it's a science-fiction movie with beautiful landscape of an imaginary nature with non-human creatures. people figured out a way to join that nature through Avatar transformation. the movie ends with a meaningful story of how human behaviors, e.g., cutting trees, have affected nature",
+        "answer": "That sounds really cool! I think that movie did really well when it was in the box office so it must be good!"
+    },
+    {
+        "id": 33,
+        "question": "yea. what else do you like to do beside movies?",
+        "answer": "I enjoy baking cookies. I am on a quest to bake the best chocolate chip cookie d%’, What about you?"
+    },
+    {
+        "id": 34,
+        "question": "I enjoy eating dF’,",
+        "answer": "so definitely would like to try your best chocolate cookie"
+    },
+    {
+        "id": 35,
+        "question": "Same! Even though I bake, I cannot cook Human 2: seems like we share a thing in common, yay!  Hi!",
+        "answer": "Good afternoon!"
+    },
+    {
+        "id": 36,
+        "question": "How has your week been?",
+        "answer": "So far so good. It is holiday season. So just chilling"
+    },
+    {
+        "id": 37,
+        "question": "I think I'm getting sick with a cold dV’2 So you should chill on my behalf too cause I'm out the game for all of December.",
+        "answer": "lol Sorry to hear that. Are you planning anything fun for December?"
+    },
+    {
+        "id": 38,
+        "question": "Nothing exciting. I'll be posted up at home for the most part. I did a lot of travelling this year so my budget would have stopped me even if I wasn't sick.",
+        "answer": "dV’,"
+    },
+    {
+        "id": 39,
+        "question": "Do you have big plans?",
+        "answer": "Yes! I am going to Hawaii! This will be my first time visiting Hawaii. Really excited about it."
+    },
+    {
+        "id": 40,
+        "question": "I love Hawaii. It's a good place to be. I like going there cause it's humid so I never have to put on lotion.",
+        "answer": "lol this is the first time I heard from a boy who cares about humidity and lotion. I cannot agree more."
+    },
+    {
+        "id": 41,
+        "question": "Brooooo!!! It's so important. When I got to California beaches I have to carry 3 litres of lotion for the whole day.",
+        "answer": "dV’,"
+    },
+    {
+        "id": 42,
+        "question": "Hi!",
+        "answer": "Oh hello. Long time no talk. How's the day going for yuo? Human 1: Very well, thanks for asking. How has your day been?"
+    },
+    {
+        "id": 43,
+        "question": "Glad to hear you're better. Sorry to hear you were sick. I was sick a couple of weeks ago with a bad cough. There's definitely a bug going around. Admit I just want to stay healthy for the holidays and plan to relax.",
+        "answer": "Oh same here. I think relaxing at home should be counted among the best ways to enjoy the holidays."
+    },
+    {
+        "id": 44,
+        "question": "Definitely! I know a lot of folks travel for the holidays, but I'm happy to stay home myself!",
+        "answer": "I'm getting there. Every year until last year, I tried to go somewhere for the Christmas / New Year, and then I got bored traveling. lol not sure if that means I'm getting old?"
+    },
+    {
+        "id": 45,
+        "question": "Yes! We set up an eco-friendly (i.e. fake) Christmas tree and put up some colorful LED lights which is very festive.",
+        "answer": "I think I'm copying you. Me and my wife plan to decorate and Christmas tree too. We bought most of the decorative stuffs from the stores, but haven't yet to buy the tree."
+    },
+    {
+        "id": 46,
+        "question": "Buying a tree is a neat experience. I was torn between buying an artificial/eco- friendly/fake one vs. a real one that smells like fresh pine. In the end, we opted for the one that we can disassemble every year.",
+        "answer": "I see. Artificial anything is better, from tree to intelligence, huh?"
+    },
+    {
+        "id": 47,
+        "question": "Oh, very clever pun! I like it! Depends. I remember having real Christmas trees from childhood, but these days with climate change, I think not chopping down a tree just to decorate it and then throw it out in a month is the more responsible thing to do.",
+        "answer": "I see. It's probably also cheaper. I'll buy an artificial one too. Do you have any suggestions for the store?"
+    },
+    {
+        "id": 48,
+        "question": "Admit my favorite store is Target, plus they often have good deals.",
+        "answer": "Ah that's great. My wife also likes Target a lot. She even made a Target credit card because she comes to that store very often. Okay thanks for the suggestion. I'll check out Target."
+    },
+    {
+        "id": 49,
+        "question": "Great, I hope you find a nice tree.  Hi!",
+        "answer": "Hey"
+    },
+    {
+        "id": 50,
+        "question": "Oh I see. What do you do?",
+        "answer": "I train and compete in horse vaulting"
+    },
+    {
+        "id": 51,
+        "question": "Just kidding. That sounds pretty cool! Is it your job?",
+        "answer": "Yeah, but I part time work on a farm. Helping with a bit of everything"
+    },
+    {
+        "id": 52,
+        "question": "Hi!",
+        "answer": "Hello"
+    },
+    {
+        "id": 53,
+        "question": "Do you have a favourite flower?",
+        "answer": "hmm, I haven't thought about that much, but i think lotus should be one of my favorites. Why do you ask?"
+    },
+    {
+        "id": 54,
+        "question": "I'm working on a theory. Why does the lotus spring to mind?",
+        "answer": "Nice! Lotus looks pretty cool and It has some delightful vibe. So what is this research about?"
+    },
+    {
+        "id": 55,
+        "question": "Oh, it's not research! Just a personal theory. I think that flower preferences are more revealing of personality than people appreciate.",
+        "answer": "Interesting! Whats your favorite flower?"
+    },
+    {
+        "id": 56,
+        "question": "The gerbera. It's like a cartoon flower. As if you drew “flower” with a crayon and then it came to life.",
+        "answer": "Nice, i would love know more about your theory. Like how you can deduce personality from flower preference."
+    },
+    {
+        "id": 57,
+        "question": "Ok, step 1 is, you ask someone what their favourite flower is. Pretty much like what we just did. Does that make sense so far?",
+        "answer": "yes"
+    },
+    {
+        "id": 58,
+        "question": "Why thank you, that's a wonderful idea!  Hi!",
+        "answer": "Hey how's it going"
+    },
+    {
+        "id": 59,
+        "question": "It's good it's good. How are you?",
+        "answer": "good. it's really hot today. I think I'm going to the pool Human 1: Oh nice! Where do you live?"
+    },
+    {
+        "id": 60,
+        "question": "Oh everything! I went to an onsen, the fish market, disney land and giant robot fighting show haha",
+        "answer": "lol why did you come to Japan just to go to Disney land?"
+    },
+    {
+        "id": 61,
+        "question": "I don't really remember what part of town it was in. It was pretty cool though - I'm sure you can find it if you google “giant robot fighting show tokyo“ haha",
+        "answer": "lol ok Human 1: Hi!"
+    },
+    {
+        "id": 62,
+        "question": "My friend wanted to see it. It has great reviews on IMDB and Rotten Tomatoes! What did you do last weekend?",
+        "answer": "I played music and worked on some side projects. I also started watching the new Disney service."
+    },
+    {
+        "id": 63,
+        "question": "Oooo the Mandalorian?!?!",
+        "answer": "Mostly, the deleted scenes from Avengers.. lol Human 1: lol Are you a big Marvel fan?"
+    },
+    {
+        "id": 64,
+        "question": "I've only seen Spiderman. Honestly it was a little too scary and so I don't think I can bring myself to watch the other Marvel movies! haha",
+        "answer": "Oh!-- I have a friend who looks like the actor who plays Spiderman."
+    },
+    {
+        "id": 65,
+        "question": "Oh really? To be honest I think the actor is not that good looking, so not so surprising! haha",
+        "answer": "Yea. I think Loki is the most handsome dV’€ Human 1: Who is Loki? I've never heard that name before"
+    },
+    {
+        "id": 66,
+        "question": "Hi!",
+        "answer": "Hey, what's up?"
+    },
+    {
+        "id": 67,
+        "question": "Do anything interesting today?",
+        "answer": "I went to the local cafe and had a double espresso. It was delicious. What about you? Human 1: Oh that's cool! I actually went to an amusement park and went on my first roller coaster!  Oh my gosh. What was it like??"
+    },
+    {
+        "id": 68,
+        "question": "It was scary! It was actually Kingda Ka, the world's tallest roller coaster. Ever heard of it?",
+        "answer": "No, never heard of it. But I'm not really a coaster aficianado. I've heard that some people get addicted to them and travel the world to try them."
+    },
+    {
+        "id": 69,
+        "question": "Oh wow! I'm not on that level yet, but I understand the appeal. Are you an adrenaline junkie at all?",
+        "answer": "No, the opposite. I can't stand heights, horror movies, or confined spaces."
+    },
+    {
+        "id": 70,
+        "question": "Hi!",
+        "answer": "hello there, how is it going?"
+    },
+    {
+        "id": 71,
+        "question": "All good. Planning to head home soon. How about you?",
+        "answer": "I'm quite tired. There are a lot of things I need to finish before the end of the year. Human 1: oh... sorry to hear that. But after that it will be a hard earned vacation"
+    },
+    {
+        "id": 72,
+        "question": "Where are you based out of these days?",
+        "answer": "I'm working from LA, nice weather around here. and you?"
+    },
+    {
+        "id": 73,
+        "question": "Yes, everyone recovered now  Hi!",
+        "answer": "Hello"
+    },
+    {
+        "id": 74,
+        "question": "How's it going?",
+        "answer": "Extremely busy. I have been trying to prepare for the upcoming holidays. How about you? Human 1: I'm going to the bahamas. Can't wait!!!"
+    },
+    {
+        "id": 75,
+        "question": "oh no. I never seen this in person. Is it scary?",
+        "answer": "Snow is not scary as long as you're prepared. You just need to be ready to not have electricity for a while. I enjoy the aftermath of a good snowstorm because then you can go sledding or skiing."
+    },
+    {
+        "id": 76,
+        "question": "that does sound nice. so what are you doing these holidays?",
+        "answer": "I am having all of the extended family over for a big meal. We will also go ‹REDACTED_TERM› as well. What will you do in the bahamas?"
+    },
+    {
+        "id": 77,
+        "question": "You can stay on the shallow side I think. Well hope you enjoy time with your extended family!",
+        "answer": "That's true. You too, have a great time snorkeling! Human 1: Hi!"
+    },
+    {
+        "id": 78,
+        "question": "did you do anything?",
+        "answer": "I made donuts and samosas with an air fryer have you used one of those before Human 1: yum yum yum no only good old oily frier"
+    },
+    {
+        "id": 79,
+        "question": "do you have one at your home or were you at a friends place? Human 2: I was at my parents' place what are you up to for Thanksgiving?  I'm going to impersonate a pumpkin",
+        "answer": "wow, those are unique plans Human 1: I'm pretty unique person  I think so too"
+    },
+    {
+        "id": 80,
+        "question": "any other hobbies besides air frying everything? 6 ’,",
+        "answer": "I want to start fermenting things kimchi for example sounds like a fun thing to ferment takes a few days apparently miso takes a couple years to fermen"
+    },
+    {
+        "id": 81,
+        "question": "Hi!",
+        "answer": "heya, nice to meet you, I'm Paul"
+    },
+    {
+        "id": 82,
+        "question": "nice to meet you too! I'm James. how are you doing today? Human 2: I'm doing OK. Looking forwards to the weekend. how about you?  same here! I hope the weather will be nice",
+        "answer": "oh yeah, but I don't have my hopes too high, I heard there could be a storm coming our way Human 1: oh no, which areas will be affected?"
+    },
+    {
+        "id": 83,
+        "question": "uh oh, I'd better not to plan for BBQ then instead just enjoying playing board games inside",
+        "answer": "yeah, it'll be good weather for staying inside with a cup of hot chocolate. Too bad my street usually floods, so I'll have to check for that"
+    },
+    {
+        "id": 84,
+        "question": "yea, you'd better check. where do you live?",
+        "answer": "I live at the bottom of the valley, cheap area but we do get affected by this kind of stuff a lot haha"
+    },
+    {
+        "id": 85,
+        "question": "gotcha. anything you love about where you live?",
+        "answer": "well, the food around the area is amazing, which is definitely a plus. Human 1: nice! I'd love to come visit that area some times"
+    },
+    {
+        "id": 86,
+        "question": "Hi!",
+        "answer": "hello, who am I having the pleasure to chat with dW’, Human 1: I am the superman! What about you?"
+    },
+    {
+        "id": 87,
+        "question": "I would rather trust fMRI and machine learning to do this. I am not an expert on that. Sorry for it!",
+        "answer": "wow that seems pretty technical. what does fMRI mean?"
+    },
+    {
+        "id": 88,
+        "question": "The brain imaging thing that can tell you a brain's activity at a pretty high resolution.",
+        "answer": "okay! so you seem to like science a lot? Human 1: I believe in Science! Science is my god!  Are you also doing science?"
+    },
+    {
+        "id": 89,
+        "question": "no, I'm bad at Science. what can Science do? is it the most important thing for society? Human 2: People are always arguing. Probably both science and democracy are both important I guess.  Does it make sense?",
+        "answer": "I think so. thanks for your point! Human 1: Hello, Nice to meet you"
+    },
+    {
+        "id": 90,
+        "question": "Hmm... That's a tough one. I think I would go Asian Food > Chinese Food > Stirfry. What about you?",
+        "answer": "I think ice-cream. It may not be good for me, but I wouldn't care, haha Human 1: I love ice cream too!"
+    },
+    {
+        "id": 91,
+        "question": "I like vanilla more than chocolate ice cream. I typically will do any variations on vanilla. To pick from the top of my head, I would say Cookies and Cream, Mint Chocolate Chip, and Coffee. How about you?",
+        "answer": "Ah, that's a good way of framing it. Me, I like berries: boysenberry one, strawberry two, maybe straight chocolate number 3 to mix it up a bit."
+    },
+    {
+        "id": 92,
+        "question": "What is the most supernatural experience you have ever had?",
+        "answer": "I went to a seance once in college. They had a ouija board. I can't remember if we actually contacted the spirit world because I had a bit too much to drink."
+    },
+    {
+        "id": 93,
+        "question": "Hi!",
+        "answer": "Hi, how are you doing!"
+    },
+    {
+        "id": 94,
+        "question": "I'm doing well. what are you up to?",
+        "answer": "Yeah, typical work stuff. Check emails and 99% of the inbox. delete 99% Human 1: wow, that's impressive. I already gave up on cleaning emails long ago  lol doesn't it bother you at all"
+    },
+    {
+        "id": 95,
+        "question": "ah cool. so you like action movies?",
+        "answer": "Not really. But it was fun to watch with friends 6W’, It was touching at the end of the movie"
+    },
+    {
+        "id": 96,
+        "question": "haha sure. by the time, I get to it; I will forget the details, only knowing that it's touching at the end",
+        "answer": "6V’, well someone died at the end Or some robots, to be more accurate dV’N Human 1: oh no, so it's not happy ending?"
+    },
+    {
+        "id": 97,
+        "question": "Hi!",
+        "answer": "Hey, how are you?"
+    },
+    {
+        "id": 98,
+        "question": "yay! Turkey and shopping!",
+        "answer": "not a big turkey fan! I find it too dry"
+    },
+    {
+        "id": 99,
+        "question": "yea me too. I sometimes eat noodle soups in thanksgiving instead haha",
+        "answer": "yeah, I would have noodles anyday over turkey. Not sure how the turkey tradition started Human 1: me neither. someone told me that it depends on the stuffing inside the Turkey. some people make very good stuffing"
+    },
+    {
+        "id": 100,
+        "question": "ah cool. so you can run more frequently?:)",
+        "answer": "yeah, just keeping calories in check"
+    },
+    {
+        "id": 101,
+        "question": "yay, all the best with keeping calories in check!  Hi!",
+        "answer": "Hi there dW’, How's your day so far? Human 1: doing well. what are you up to?"
+    },
+    {
+        "id": 102,
+        "question": "same here. what do you love to do beside meetings? d%’,",
+        "answer": "well I've gotten really into yoga lately. I went to a class today and it was super hard Human 1: aww .. I hope things will get less hard and you become an expert in it! I heard many great things about Yoga"
+    },
+    {
+        "id": 103,
+        "question": "ah I enjoy playing soccer and tennis d%’, unfortunately, winter is not the best time for those dW’,",
+        "answer": "oh that's too bad. Is it hard to find a place to play soccer or tennis indoors?"
+    },
+    {
+        "id": 104,
+        "question": "yea. I enjoy playing outside though, just a little cold d%’, what else do you do beside Yoga?",
+        "answer": "I also like to sing, I perform with a group sometimes. Do you like music? Human 1: yea definitely! I love singing Karaoke. my wife is a pianist dr,"
+    },
+    {
+        "id": 105,
+        "question": "Hi!",
+        "answer": "hey there"
+    },
+    {
+        "id": 106,
+        "question": "hey anything new?",
+        "answer": "not too much. just really looking forward to the holidays! Human 1: any plans?"
+    },
+    {
+        "id": 107,
+        "question": "Are you a food person, a sightseeing person or neither?",
+        "answer": "that's a great question, and I'm definitely both. this trip will mostly be about food though, and relaxing"
+    },
+    {
+        "id": 108,
+        "question": "I'm a food person I think. Any specific foods you're planning on trying?",
+        "answer": "there's a taco place that I've visited before that I can't wait to go back to. Do you like tacos?"
+    },
+    {
+        "id": 109,
+        "question": "yeah my favorite is taco fish",
+        "answer": "ooh that is a good choice. Have you ever made them yourself? Human 1: no. only eat them dV’€"
+    },
+    {
+        "id": 110,
+        "question": "Hi!",
+        "answer": "Hey, how are you 6W’,"
+    },
+    {
+        "id": 111,
+        "question": "I am good. How are you? i/ši/fi",
+        "answer": "Doing well, lot of work though. How was your day? Human 1: I am busy. A lot of work. What are you working on?"
+    },
+    {
+        "id": 112,
+        "question": "A new classifier for hate speech. Which research topic catches your eyes most?",
+        "answer": "You're so cool. Making world a better place. I'm mostly into NLP. What do you do when not making classifiers?"
+    },
+    {
+        "id": 113,
+        "question": "Nice! Do you refer to work or anything else?",
+        "answer": "Anything in general. You're so cool, I want to know more about you d%’, Human 1: You are very cool too!!"
+    },
+    {
+        "id": 114,
+        "question": "Hi!",
+        "answer": "hello there! who are you? Human 1: I'm mark. I work in accounting"
+    },
+    {
+        "id": 115,
+        "question": "interesting. what's type of fish do you take care of?",
+        "answer": "any type of fish! We have clients with guppies, goldfish, even a small sailfish once what do you do in accounting?"
+    },
+    {
+        "id": 116,
+        "question": "well I actually think about pursuing photography, but it's really hard",
+        "answer": "photography is awesome, don't be afraid to follow your dreams! Human 1: thank you Tom!! I'm starting by trying to sell my pictures online  that's great! I wish you good luck with that"
+    },
+    {
+        "id": 117,
+        "question": "Thanks! Bye  Hi!",
+        "answer": "Hey there how's it going Human 1: All good, you?"
+    },
+    {
+        "id": 118,
+        "question": "Hi!",
+        "answer": "Hello, how are you?"
+    },
+    {
+        "id": 119,
+        "question": "I had eggs and hash browns. Way less healthier than your apple, I'm afraid!",
+        "answer": "Eggs are an excellent source of protein and hash browns certainly are yummy! 6r’, Human 1: Ha, that's true. If you could only eat one food forever, what would it be?"
+    },
+    {
+        "id": 120,
+        "question": "Yeah, turning orange would be a drawback! That turns my mind to nutrition so I suddenly want to say Soylent or one of those other “complete foods“, which I think defeats the purpose of the question. I'm in a muddle!",
+        "answer": "Very true. If you said an everything pizza, you could just pick off the toppings you didn't want or eat only the toppings you would want for the day"
+    },
+    {
+        "id": 121,
+        "question": "BRILLIANT. I love it.",
+        "answer": "All of this talk about food is making me hungry. Do you know any good places to eat for lunch?"
+    },
+    {
+        "id": 122,
+        "question": "Hi!",
+        "answer": "Hello! How are you doing 6F’, Human 1: I'm great! How's your day going?"
+    },
+    {
+        "id": 123,
+        "question": "Oh that is awesome! For some reason I assumed it was a college class, but a sewing class sounds way better! I work full time, but I take pottery classes from time to time!",
+        "answer": "Yup! I work in a technical role so I like to take arts and crafts-type classes now and then dW’, Pottery sounds like a lot of fun"
+    },
+    {
+        "id": 124,
+        "question": "I feel you on that! It's important to balance all the different parts of your brain. I like pottery because I also drink a lot of tea, so I get to make some tea ware.",
+        "answer": "Any plans to build a custom tea set? My family is also very into tea Mostly from tea from china"
+    },
+    {
+        "id": 125,
+        "question": "I actually found a youtube channel called <REDACTED_TERM> that I like a lot. You should check it out! The host talks about all kinds of different teas.",
+        "answer": "Oh cool! What are your favorite channels to watch?"
+    },
+    {
+        "id": 126,
+        "question": "Hi! Are you planning something fun for Thanksgiving?",
+        "answer": "Not yet. I always made my last minute schedule planning. Probably you can try to ask me again next week."
+    },
+    {
+        "id": 127,
+        "question": "lol it is really like a robot answer",
+        "answer": "I am indeed a robot. You are absolutely right. Do you want me to read a poet like my mate"
+    },
+    {
+        "id": 128,
+        "question": "ol can I pick the theme. Do you have a poet about Kale?",
+        "answer": "Wait. Do you like kale? Or you hate kale? I am afraid I will become a robot some day eventually. If I have to speak like this :)"
+    },
+    {
+        "id": 129,
+        "question": "I am really not a fan of kale Do you talk to human more or computers more?",
+        "answer": "If I continue to pretend to be a robot, I would probably say I talk to myself the most. I am trying to talk to computers more, but you know, computers don't like me."
+    },
+    {
+        "id": 130,
+        "question": "Yes!",
+        "answer": "I used to be a Java advocate. But you know, it doesn't do a good job in the AI days. It really makes me sad."
+    },
+    {
+        "id": 131,
+        "question": "Hi!",
+        "answer": "Wow, hello. Can't believe we are finally talking!"
+    },
+    {
+        "id": 132,
+        "question": "Yeah, sorry for the long gap! I heard you took a break and were travelling around the world. How was the travel?",
+        "answer": "It was an interesting trip. I got to see some exotic places. For example, I hiked the Son Doong cave in Vietnam. It's the biggest and deepest cave in the world."
+    },
+    {
+        "id": 133,
+        "question": "Great! Vietnam is still in my TODO bucket list. Did you also visit cambodia and other neighboring places?",
+        "answer": "Yes. Laos and Cambodia are the two neighboring countries. Cambodia has an exotic culture. They sell spiders, scorpions, and grasshoppers as street food! It took a lot of courage for me to try them."
+    },
+    {
+        "id": 134,
+        "question": "Hehe! How long was the stay?",
+        "answer": "10 days in total, and 5 of them were spent in the cave. What have I missed at work in those days?"
+    },
+    {
+        "id": 135,
+        "question": "Great! Good time to be back. We are still in planning phase and haven't fully aligned on the projects to tackle for next quarter.reat! Good time to be back. We are still in planning phase and haven't fully aligned on the projects to tackle for next quarter.",
+        "answer": "Oh, so you are already planning for the next quarter. This whole team is always living the future."
+    },
+    {
+        "id": 136,
+        "question": "Hehe, yeah! It seems like the quarter is being pushed earlier than from where it starts dW’, I like these planning sessions. It makes me feel more confident about the work I am doing.",
+        "answer": "Yeah. Some people underestimate the importance of planning, but I think it's very important to have the correct plan. Executing the wrong plan is terrible. Also, planning is fun. You can stack up so many ideas and get great feedbacks."
+    },
+    {
+        "id": 137,
+        "question": "True! I think we should set aside some time to discuss some project details? Does tomorrow afternoon work for you?",
+        "answer": "Yeah tomorrow afternoon works for me. Let me set a time on your calendar. Is 3pm good? Human 1: Okay. See tomorrow then."
+    },
+    {
+        "id": 138,
+        "question": "Hi!",
+        "answer": "Hello"
+    },
+    {
+        "id": 139,
+        "question": "Let's try something different. What about <REDACTED_TERM>? Do you always prefer lunch sync over regular meeting syncs?",
+        "answer": "Yeah right, I heard the food there is good. I am not sure what they serve there for lunch? On wednesdays."
+    },
+    {
+        "id": 140,
+        "question": "We can check the menu then decide :)",
+        "answer": "Actually, the menu looks good. Looking forward to it then. Human 1: Sure. See you then!"
+    },
+    {
+        "id": 141,
+        "question": "Hi!",
+        "answer": "Hello. How's your week coming along?"
+    },
+    {
+        "id": 142,
+        "question": "It's great, thanks. I'm trying to learn how to make croissants.",
+        "answer": "Wow that's interesting. I have baked cookies, but croissants seem much more sophisticated. Did you make any progress?"
+    },
+    {
+        "id": 143,
+        "question": "I've done them once or twice so far, but they haven't been flakey enough. I'm trying to figure out why. What kind of cookies have you made?",
+        "answer": "Mint chocolate chips. I think your croissants not being flakey could have something to do with your oven's temperature."
+    },
+    {
+        "id": 144,
+        "question": "Ah, good thought, thanks!",
+        "answer": "Have you thought about melting some chocolate into your croissants? They don't have to be something unhealthy. For example, melted dark chocolate is good for the heart, and makes the resulting croissants taste much better."
+    },
+    {
+        "id": 145,
+        "question": "Some people don't! But yeah, me too, I think I'd eat pastries all the time if I could get away with it.",
+        "answer": "Yeah I'm afraid I wouldn't. I feel very guilty every time I gulp down an ice cream. But hey, these days there are many types of guilt-free sweet food. For example, there's this ice cream brand called <REDACTED_TERM›. It's only 320 calories a pint. And yes, it preserves most of the normal sweet flavors."
+    },
+    {
+        "id": 146,
+        "question": "Wow! The last time I paid attention to that sort of stuff was when ‹REDACTED_TERM› was being marketed as a fat substitute, and caused all sorts of crazy stomach upsets.",
+        "answer": "Interesting. I heard about the sweet substitute in a program called the Keto diet. Basically, we try to limit our sugar intake every day. Successful Keto dieters have recommended the"
+    },
+    {
+        "id": 147,
+        "question": "Ah, maybe that's the solution I need to enjoy sweets and not feel guilty dW’,  Hi!",
+        "answer": "Hello! tell me something about the holiday season?"
+    },
+    {
+        "id": 148,
+        "question": "Are you talking about thanksgiving? I plan to do plenty of shopping here. Do you have any plans?",
+        "answer": "Yes, no shopping plans but I can't wait to eat thanksgiving food. yay for pumpkin pie Human 1: Sounds great! you need not wait for thanksgiving for pumpkin pie dW’,"
+    },
+    {
+        "id": 149,
+        "question": "True! I think thanksgiving is more about sharing. So you may end up sharing the pie with the whole family :P",
+        "answer": "My family eats healthier than I do, so it's all mine 6V’› do you like stuffing? I feel like that's only available once a year"
+    },
+    {
+        "id": 150,
+        "question": "Like everything that has a discount tag! .. kidding! I normally do some research for the prices, and mostly buy clothes and electronics.",
+        "answer": "What's the best holiday deal you've found in the past?"
+    },
+    {
+        "id": 151,
+        "question": "Hehe, sure! I can share some links with you later.  Hi!",
+        "answer": "How's it going? Human 1: I'm so sleepy today!"
+    },
+    {
+        "id": 152,
+        "question": "Biology. I'm gonna be a doc someday ha",
+        "answer": "Haha, are you in med school? Or are you pre-med? Human 1: no high school actually haha"
+    },
+    {
+        "id": 153,
+        "question": "I wanna be a brain surgeon!!",
+        "answer": "Ooof! VERY ambitious. Do you have steady hands? Human 1: Kind of I think"
+    },
+    {
+        "id": 154,
+        "question": "I honestly thought it was one of those things you have to be born with... Not that you shouldn't try though!",
+        "answer": "good point. I should ask my teacher if I have to be born with that"
+    },
+    {
+        "id": 155,
+        "question": "Maybe its a little too early to even be thinking about this. Just aim for med school and enjoy the journey!",
+        "answer": "yeah"
+    },
+    {
+        "id": 156,
+        "question": "What other subjects do you enjoy? Try to keep an open mind!  Hi!",
+        "answer": "Hi. This is a pleasant surprise."
+    },
+    {
+        "id": 157,
+        "question": "Haha...thanks! how did you like the gift?",
+        "answer": "Currently unpacking it I guess. How's your morning?"
+    },
+    {
+        "id": 158,
+        "question": "Hope you like it! Morning is good. Busy finishing up stuff before the holidays.",
+        "answer": "I think I traveled too much the last couple of months so no holiday for me. But I'm okay with that. Going anywhere exciting?"
+    },
+    {
+        "id": 159,
+        "question": "Yes",
+        "answer": "Where to?"
+    },
+    {
+        "id": 160,
+        "question": "Mauii...Hope I like it too. Never been there before.",
+        "answer": "I visited Maui. It's my second favourite island I've been to, globally. You should try driving on road to Hana. It's a whole day thing but it's worth it."
+    },
+    {
+        "id": 161,
+        "question": "Awesome! Thanks for the tip.  Hi!",
+        "answer": "Hi! Sorry for the late response. How are you doing?"
+    },
+    {
+        "id": 162,
+        "question": "Yes, but I'm terrible at it. It's fun to play anything with friends, I think. Would you prefer to exercise with a group, or by yourself, do you think?",
+        "answer": "I think playing a team sport would be fun if it's casual but I primarily run by myself if I exercise. I also got the Ring Fit adventure game on the switch recently. It's basically a game-ified way to exercise"
+    },
+    {
+        "id": 163,
+        "question": "I'm thinking about getting a Switch, would you recommend it?",
+        "answer": "Yes! There are a lot of really great games on the Switch. Two of my favorites are Octopath Traveler and Fire Emblem. Do you play a lot of video games?"
+    },
+    {
+        "id": 164,
+        "question": "I like to read for fun. I just finished a book called Temeraire. It's an adventure story set in the Napoleonic navy, like Patrick O'Brien, except there are dragons too.",
+        "answer": "Oh cool! I read a lot for fun too d%’, My favorite genre is sci-fi fantasy. Human 1: What's the most recent good thing you read?"
+    },
+    {
+        "id": 165,
+        "question": "Hi!",
+        "answer": "hey, what's up?"
+    },
+    {
+        "id": 166,
+        "question": "What do you think about human like chat bots?",
+        "answer": "I can't wait for them to be great conversationalists!"
+    },
+    {
+        "id": 167,
+        "question": "Yep, we seemed to have made some great progress over last few years. Do you think the positives outweigh the negatives",
+        "answer": "are there even any negatives? what are they?"
+    },
+    {
+        "id": 168,
+        "question": "Like impersorsination? Though it sounds far fetched :)",
+        "answer": "People can already impersonate other people though! I think it'd be great to have bots to converse with"
+    },
+    {
+        "id": 169,
+        "question": "True that! Some of these bots are very engaging and funny. They are now good at even sarcasm I wonder how far are we from the time these bots start giving monologues :)",
+        "answer": "What do you think are the big advantages? Like personal assistants?"
+    },
+    {
+        "id": 170,
+        "question": "The current auto-suggestions already do pretty good d%’,",
+        "answer": "Yeah those are actually really good for a few words! I'm imagining like it comes up with a whole conversational response, like a default template"
+    },
+    {
+        "id": 171,
+        "question": "Hi!",
+        "answer": "Hi!"
+    },
+    {
+        "id": 172,
+        "question": "Any big plans for the upcoming holidays?",
+        "answer": "Sorry for the late response -- Yes, I will be going skiing in Tahoe over the holidays. Human 1: That sounds amazing. I want to learn how to ski but I feel like I'm too old and falls would have lifelong impacts. Are you going with friends?"
+    },
+    {
+        "id": 173,
+        "question": "Hi!",
+        "answer": "Hi dW’,"
+    },
+    {
+        "id": 174,
+        "question": "I just came back from work. so tired",
+        "answer": "Oh I am sorry to hear! What did you work on?"
+    },
+    {
+        "id": 175,
+        "question": "I'm a lawyer. so talking to clients most of the day",
+        "answer": "Oh you are a lawyer. I've been so interested in this profession. Human 1: really? why?"
+    },
+    {
+        "id": 176,
+        "question": "I am a painter",
+        "answer": "oh wow what type of paintings do you do? Human 1: I do oil painting."
+    },
+    {
+        "id": 177,
+        "question": "Hi!",
+        "answer": "Do you believe in miracles?"
+    },
+    {
+        "id": 178,
+        "question": "It's too many of them out there. You help who you can. Regardless, I wouldn't say I believe in miracles - well, if I got promoted next cycle I might change my mind.",
+        "answer": "Haha... Well, it sounds like career is really important to you. What matters to you the most in life?"
+    },
+    {
+        "id": 179,
+        "question": "Right now, not much. It's unclear. Career is a good fallback because you get told what good means and you act accordingly. I haven't gone through the process of shaping my values. What about you?",
+        "answer": "I'd say that I want to live for the best possible world in my lifetime. It's probably a result of my playing too many video games as a child."
+    },
+    {
+        "id": 180,
+        "question": "We didn't have electricity growing up. Explains a lot. Lol.",
+        "answer": "Does not having had electricity help you empathize more with people of differing backgrounds and/or makes you feel a bit a distance from those who don't understand?"
+    }
+]
