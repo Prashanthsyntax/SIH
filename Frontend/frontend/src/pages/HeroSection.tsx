@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -201,3 +202,16 @@ export default function HeroPage() {
     </div>
   );
 }
+
+import React from 'react'
+
+const HeroSection = () => {
+  return (
+    <div>
+      Hello World
+    </div>
+  )
+}
+
+export default HeroSection
+
