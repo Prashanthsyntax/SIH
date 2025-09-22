@@ -19,7 +19,11 @@
           "background-color: color-mix(in oklab, #1f2937 90%, transparent)"
         ]
       }
+
+    ]
+
     ],
     "no-inline-styles": "off"
+
   }
 }

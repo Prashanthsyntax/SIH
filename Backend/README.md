@@ -1,5 +1,8 @@
 # Sentenara - Backend Documentation
 
+
+## Step 1: Extract Text from PDF
+
 ## Step 1: Extract Text from PDF
 
 
@@ -12,4 +15,7 @@
     - myenv\Scripts\activate
 uvicorn app:app --reload --port 8000
 
+<<<<<<< HEAD
     - deactivate
+=======
+>>>>>>> temp-save
