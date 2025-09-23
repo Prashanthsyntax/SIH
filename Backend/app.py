@@ -39,8 +39,10 @@ device = 0 if torch.cuda.is_available() else -1
 
 qa_pipeline = pipeline("text2text-generation", model=model, tokenizer=tokenizer, device=device)
 
+import chromadb
+  
 client = chromadb.CloudClient(
-  api_key='ck-FLEMJN1q9G85JWFrL2tPqE4B7EqmrGFzuz5sSFcuCpxX',
+  api_key='ck-7UQitwAxxYDX4qvdKuMTZjHdcicfsWM4E7nehWnEfsFi',
   tenant='f9ac33d4-f162-4b85-b38d-1c8b719366e6',
   database='VECDB'
 )
