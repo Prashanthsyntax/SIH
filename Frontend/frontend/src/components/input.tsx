@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   Globe,
   Paperclip,
@@ -17,12 +17,96 @@ interface Props {
 
 const InputBar: React.FC<Props> = ({ onSend, loading }) => {
   const [input, setInput] = useState("");
+  const [isRecording, setIsRecording] = useState(false);
+  const [isClient, setIsClient] = useState(false); // SSR-safe flag
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const recognitionRef = useRef<SpeechRecognition | null>(null);
+
+  // Initialize SpeechRecognition only on client
+  useEffect(() => {
+    setIsClient(true);
+    if (typeof window !== "undefined") {
+      const SpeechRecognition =
+        (window as any).SpeechRecognition ||
+        (window as any).webkitSpeechRecognition;
+
+      if (SpeechRecognition) {
+        const recog: SpeechRecognition = new SpeechRecognition();
+        recog.continuous = true;
+        recog.interimResults = true;
+        recognitionRef.current = recog;
+      }
+    }
+  }, []);
 
   const handleSend = () => {
-    if (!input.trim() || loading) return; // prevent sending while loading
-    onSend(input);
+    if (!input.trim() || loading) return;
+    onSend(input.trim());
     setInput("");
   };
+
+  const handleFileClick = () => fileInputRef.current?.click();
+
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    try {
+      const res = await fetch("http://localhost:8000/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!res.ok) throw new Error("Upload failed");
+
+      const data = await res.json();
+      console.log("✅ File uploaded:", data);
+      alert(`File uploaded: ${data.filename}`);
+    } catch (err) {
+      console.error("❌ Upload failed:", err);
+      alert("Upload failed. Please try again.");
+    }
+  };
+
+  const handleMicClick = () => {
+    if (!recognitionRef.current) {
+      alert("Speech Recognition not supported in this browser.");
+      return;
+    }
+
+    const recognition = recognitionRef.current;
+
+    if (isRecording) {
+      recognition.stop();
+      setIsRecording(false);
+      return;
+    }
+
+    recognition.onresult = (event: SpeechRecognitionEvent) => {
+      let transcript = "";
+      for (let i = event.resultIndex; i < event.results.length; i++) {
+        transcript += event.results[i][0].transcript;
+      }
+      setInput(transcript);
+    };
+
+    recognition.onerror = (event: any) => {
+      if (event.error !== "aborted") {
+        console.error("🎤 Speech recognition error:", event.error);
+      }
+    };
+
+    recognition.onend = () => setIsRecording(false);
+
+    recognition.start();
+    setIsRecording(true);
+  };
+
+  // Avoid SSR mismatch in Next.js
+  if (!isClient) return null;
 
   return (
     <div className="w-full bg-[#1f2937] rounded-2xl p-2 flex items-center border border-gray-700 shadow-lg">
@@ -55,15 +139,46 @@ const InputBar: React.FC<Props> = ({ onSend, loading }) => {
       <div className="flex items-center gap-4 mr-2">
         <Globe className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
         <Cpu className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-        <Paperclip className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
-        <Mic className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+
+        {/* File Upload */}
+        <button
+          onClick={handleFileClick}
+          className="p-1 hover:bg-[#0d2538] rounded-lg transition"
+        >
+          <Paperclip className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+        </button>
+        <input
+          type="file"
+          ref={fileInputRef}
+          onChange={handleFileChange}
+          className="hidden"
+        />
+
+        {/* Mic */}
+        <button
+          onClick={handleMicClick}
+          className={`p-1 rounded-lg transition ${
+            isRecording ? "bg-red-600" : "hover:bg-[#0d2538]"
+          }`}
+        >
+          <Mic
+            className={`w-5 h-5 ${
+              isRecording
+                ? "text-white animate-pulse"
+                : "text-gray-400 hover:text-white"
+            }`}
+          />
+        </button>
       </div>
 
       {/* Send Button */}
       <button
         onClick={handleSend}
+        disabled={loading}
         className={`ml-2 p-2 rounded-xl transition flex items-center justify-center ${
-          loading ? "bg-gray-600 cursor-not-allowed" : "bg-teal-500 hover:bg-teal-400"
+          loading
+            ? "bg-gray-600 cursor-not-allowed"
+            : "bg-teal-500 hover:bg-teal-400"
         }`}
       >
         {loading ? (
