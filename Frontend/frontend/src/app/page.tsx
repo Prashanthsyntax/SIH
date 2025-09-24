@@ -16,7 +16,7 @@ export default function ChatLayout() {
   };
 
   return (
-    <div className="h-screen w-screen flex">
+    <div className="h-screen w-screen flex fixed">
       {/* <Main /> */}
       <Sidebar />
       <MainUI />
