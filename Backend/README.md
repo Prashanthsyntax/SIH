@@ -11,3 +11,6 @@
 ##### for activating env
     - myenv\Scripts\activate
 uvicorn app:app --reload --port 8000
+
+
+#### ![alt text](<Activate_ENV.png>)

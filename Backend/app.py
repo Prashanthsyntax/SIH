@@ -42,7 +42,7 @@ qa_pipeline = pipeline("text2text-generation", model=model, tokenizer=tokenizer,
 import chromadb
   
 client = chromadb.CloudClient(
-  api_key='ck-7UQitwAxxYDX4qvdKuMTZjHdcicfsWM4E7nehWnEfsFi',
+  api_key='ck-3vUi9wYmBtsXJtszdJ3esCmwv6EfhhHY7ce7PtyWe3fL',
   tenant='f9ac33d4-f162-4b85-b38d-1c8b719366e6',
   database='VECDB'
 )
